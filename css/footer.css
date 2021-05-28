@@ -14,10 +14,19 @@ p{
 
 h5{
     font-size: 24px;
+    text-align: left;
 }
 
 li{
     font-size: 18px;
+    text-align: center;
+    line-height: 29px;
+}
+.redes{
+    margin-left: 3vw;
+}
+.menu{
+    margin-left: 3vw;
 }
 
 .copy{
@@ -32,5 +41,40 @@ li{
     .links{
         display: flex;
     }
+    .redes{
+        flex-grow: 0.10;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        margin-left: 3vw;
+    }
+    .menu{
+        flex-grow: 0.10;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        margin-left: 9vw;
+
+    }
+    .redes__twitter{
+        text-align: right;
+    }
+    .redes__picture{
+        text-align: right;
+    }
+    .redes__linkedin{
+        text-align: right;
+    }
+    .menu__servicios{
+        text-align: right;
+    }
+    .menu__proyectos{
+        text-align: right;
+    }
+    .menu__contactar{
+        text-align: right;
+    }
+    li{
+        line-height: 29px;
+    }
+
 
 }
