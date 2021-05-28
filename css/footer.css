@@ -1,2 +1,36 @@
 /* FOOTER */
 /* ***** */
+/* SMARTPHONE */
+
+footer{
+    background-color: #4066EC;
+    color: white; 
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+h5{
+    font-size: 24px;
+}
+
+li{
+    font-size: 18px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width:1000px){
+
+    .links{
+        display: flex;
+    }
+
+}
